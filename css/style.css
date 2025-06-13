@@ -12,7 +12,119 @@ html {
     box-sizing: inherit;
 }
 
+body{
+    font-size: 1.6rem;
+}
+
 img {
     max-width: 100%;
 }
 
+header{
+    background-image: url("../img/header-background.jpg");
+    height: 80rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.barra-superior{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.barra-superior a{
+    flex-basis: 30%;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+.contenido-header{
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulos h1{
+    color: white;
+    margin-bottom: 0;
+    font-size: 5rem;
+}
+.titulos h2{
+    color: darkgoldenrod;
+    margin-top: 0;
+    font-size: 5rem;
+}
+
+.bg-black{
+    background-color: black;
+    height: 30rem;
+}
+
+.barra-inferior{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.barra-inferior a{
+    flex-basis: 10%;
+}
+
+.navbar-footer a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: darkorange   ;
+    margin-right: 1rem;
+}
+
+.contenedor p {
+    color: white;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+}
+
+.card{
+    flex-basis: calc(33.3% - 2rem);
+    margin: 2rem;
+    border: solid .1rem;
+    height: 55rem;
+}
+
+.card-contenido h3{
+    color: darkorange;
+    text-align: center;
+}
+
+.card-contenido p{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-contenido a{
+    background-color: orange;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 0 0 6rem 0;
+}
+
+.card-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

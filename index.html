@@ -9,44 +9,71 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Vinyl Store</title>
 </head>
 
 <body>
     <!--Inicio Header-->
-    <a href="#">
-        <img src="img/logo.png" alt="Logo empresa">
-    </a>
+    <header>
+        <div class="contenedor contenido-header">
+            <div class="barra-superior">
+                <a href="#">
+                    <img src="img/logo.png" alt="Logo empresa">
+                </a>
 
-    <nav>
-        <a href="#">Nosotros</a>
-        <a href="#">Vinilos</a>
-        <a href="#">CDs</a>
-        <a href="#">Equipo</a>
-        <a href="#">Contacto</a>
-    </nav>
+                <nav class="navbar">
+                    <a href="#">Nosotros</a>
+                    <a href="#">Vinilos</a>
+                    <a href="#">CDs</a>
+                    <a href="#">Equipo</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </div>
 
-    <h1>Harrison Records</h1>
-    <h2>Vinyl Store</h2>
+            <div class="titulos">
+                <h1>Harrison Records</h1>
+                <h2>Vinyl Store</h2>
+            </div>
+        </div>
+    </header>
+
+
 
     <!--Main-->
-    <h2>Vinilos</h2>
+    <main>
+        <div class="contenedor">
+            <h2>Vinilos</h2>
 
-    <img src="#" alt="Imagen vinilo">
+            <article class="productos">
 
-    <h3>Joy Division - Unknown Pleasures</h3>
+                <div class="card">
+                    <img src="img/vinilos/joy-division-unknown-pleasures.jpg" alt="Imagen vinilo">
 
-    <p>$30.000</p>
+                    <div class="card-contenido">
+                        <h3>Joy Division - Unknown Pleasures</h3>
 
-    <a href="#">Ver mas</a>
+                        <p>$30.000</p>
 
-    <img src="#" alt="Imagen vinilo">
+                        <a href="img/vinilos/bep.jpg">Ver mas</a>
+                    </div>
 
-    <h3>Black Eyed Peas - The Beginning</h3>
+                </div>
 
-    <p>$30.000</p>
+                <div class="card">
+                    <img src="img/vinilos/bep.jpg" alt="Imagen vinilo">
 
-    <a href="#">Ver mas</a>
+                    <div class="card-contenido">
+                        <h3>Black Eyed Peas - The Beginning</h3>
+
+                        <p>$30.000</p>
+
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
 
 
     <h2>Sobre nosotros</h2>
@@ -93,19 +120,26 @@
     </form>
 
     <!-- Footer -->
+    <footer class="bg-black">
+        <div class="contenedor">
+            <div class="barra-inferior">
+                <a href="#">
+                    <img src="img/logo.png" alt="Logo Harrison Records">
+                </a>
 
-    <img src="#" alt="Logo Harrison Records">
-
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Vinilos</a>
-        <a href="#">CDs</a>
-        <a href="#">Equipo</a>
-        <a href="#">Contacto</a>
-    </nav>
-    <p>&copy; 2025 Harrison Records. Todos los derechos reservados.</p>
-    <p>Diseñado por tuNombre</p>
+                <nav class="navbar-footer">
+                    <a href="#">Inicio</a>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Vinilos</a>
+                    <a href="#">CDs</a>
+                    <a href="#">Equipo</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </div>
+            <p>&copy; 2025 Harrison Records. Todos los derechos reservados.</p>
+            <p>Diseñado por tuNombre</p>
+        </div>
+    </footer>
 </body>
 
 </html>
